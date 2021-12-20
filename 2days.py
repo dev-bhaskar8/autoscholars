@@ -6,7 +6,7 @@ from datetime import datetime
 import requests
 import concurrent.futures
 
-managerName = ['papuyu','thanas','clerk','irene','evon','yggseamal','yggseathai','yggseaind']
+managerName = ['bhaskar']
 
 sheetId = "1fXu7oRQoApJ0E5mg-5p1U07dWJ8lQSYVmqldK9Sx6ek"
 sheetName = "AxieAccount"
@@ -51,7 +51,7 @@ data2= {
     "total1":[],
     "total2":[]
     }
-sheetId2 = "1LEdut3WTsoom03KicIRhJLvTeMnoPnIC804uUvxtwA4"
+sheetId2 = "1h-dRUU2LDgbmWSl7vFsY7aFq7ryguYMFTpQgv2kJ_n8"
 sheetURL2 = f"https://docs.google.com/spreadsheets/d/{sheetId2}/gviz/tq?tqx=out:csv&sheet={sheetName}"
 df = pd.read_csv(sheetURL2)
 for i in range(0,scholars.shape[0]):
