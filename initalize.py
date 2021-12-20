@@ -7,7 +7,7 @@ import requests
 import concurrent.futures
 
 
-managerName = ['papuyu','thanas','clerk','irene','evon','yggseamal','yggseathai','yggseaind']
+managerName = ['bhaskar']
 
 sheetId = "1fXu7oRQoApJ0E5mg-5p1U07dWJ8lQSYVmqldK9Sx6ek"
 sheetName = "AxieAccount"
@@ -56,7 +56,7 @@ two_days = two_days.dropna()
 logs = pd.DataFrame(data2)
 logs = logs.dropna()
 
-sheetId2 = "1LEdut3WTsoom03KicIRhJLvTeMnoPnIC804uUvxtwA4"
+sheetId2 = "1h-dRUU2LDgbmWSl7vFsY7aFq7ryguYMFTpQgv2kJ_n8"
 
 gc = gspread.service_account(filename='manager-319201-3dc4c609fd55.json')
 sh = gc.open_by_key(sheetId2)
