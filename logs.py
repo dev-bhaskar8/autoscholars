@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 import requests
 
-sheetId2 = "1LEdut3WTsoom03KicIRhJLvTeMnoPnIC804uUvxtwA4"
+sheetId2 = "1h-dRUU2LDgbmWSl7vFsY7aFq7ryguYMFTpQgv2kJ_n8"
 sheetURL2 = f"https://docs.google.com/spreadsheets/d/{sheetId2}/gviz/tq?tqx=out:csv&sheet"
 sheetURL3 = f"https://docs.google.com/spreadsheets/d/{sheetId2}/gviz/tq?tqx=out:csv&sheet=logs"
 scholars = pd.read_csv(sheetURL2)
