@@ -6,7 +6,7 @@ from datetime import datetime
 import requests
 
 sheetId = "1fXu7oRQoApJ0E5mg-5p1U07dWJ8lQSYVmqldK9Sx6ek"
-sheetId2 = "1LEdut3WTsoom03KicIRhJLvTeMnoPnIC804uUvxtwA4"
+sheetId2 = "1h-dRUU2LDgbmWSl7vFsY7aFq7ryguYMFTpQgv2kJ_n8"
 sheetName = "AxieAccount"
 sheetURL = f"https://docs.google.com/spreadsheets/d/{sheetId}/gviz/tq?tqx=out:csv&sheet={sheetName}"
 pd.options.display.float_format = '{:.0f}'.format
